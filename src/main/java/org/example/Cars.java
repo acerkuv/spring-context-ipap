@@ -33,7 +33,6 @@ public class Cars extends Engine {
         this.driver = driver;
     }
 
-
     public void  drive(){
         System.out.println("Двигатель заведен! " + " Водитель " + getDriver().toString());
 

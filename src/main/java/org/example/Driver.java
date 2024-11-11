@@ -1,9 +1,5 @@
 package org.example;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
-
 
 public class Driver {
 
@@ -20,7 +16,4 @@ public class Driver {
                 '}';
     }
 
-    public void setFio(String fio) {
-        this.fio = fio;
-    }
 }

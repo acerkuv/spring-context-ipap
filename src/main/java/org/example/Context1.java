@@ -9,10 +9,7 @@ public class Context1 {
     public Driver driver(){
         return new Driver("Василий");
     }
-    @Bean(name = "engines")
-    public Engine engine(){
-       return new Engine("Dysel", 100);
-    }
+
     @Bean(name = "carFirst")
     public Cars cars(){
        return new Cars("Dysel", 100, "Logan", 1 );
